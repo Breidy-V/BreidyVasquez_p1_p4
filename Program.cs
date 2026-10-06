@@ -28,14 +28,12 @@ using (var scope = app.Services.CreateScope())
     await autorService.InitializeAsync();
 }
 
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI();
 
     app.MapOpenApi();
     app.MapScalarApiReference();
-}
+
 
 app.UseHttpsRedirection();
 
