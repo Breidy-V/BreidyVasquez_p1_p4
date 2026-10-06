@@ -1,0 +1,6 @@
+@BreidyVasquez_p1_p4.Api_HostAddress = http://localhost:5202
+
+GET {{BreidyVasquez_p1_p4.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
